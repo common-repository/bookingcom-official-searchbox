@@ -1,0 +1,582 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Official Search box ver 2.0\n"
+"POT-Creation-Date: 2022-01-10 11:03+0100\n"
+"PO-Revision-Date: 2022-01-10 11:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: wp-plugins@booking.com\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box settings"
+msgstr "Booking.com 검색창 여행지"
+
+#: inc/core-functions.php:26
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box"
+msgstr "Booking.com 검색창 여행지"
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "설정"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "기본 설정 "
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "여행지 프리셋 "
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "색상 구성 "
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "검색창 텍스트"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr "여기서 검색창을 설정하십시오. "
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+"다음 필드를 사용하여 특정한 여행지를 선택하십시오. 여행지 타입과 ID는 이용자"
+"의 정확한 검색 결과를 위해 필요합니다."
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "여기서 색상 구성을 설정하십시오."
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "여기서 검색창 텍스트를 설정하십시오."
+
+#: inc/core-functions.php:181 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"여행지 ID에 대한 더 자세한 정보는 <a href=\"\" target=\"_blank\">파트너 센터"
+"</a>에 로그인하셔서 확인하십시오. \"URL 생성기\" 에 귀사의 여행지 ID가 기재되"
+"어 있습니다. 이 ID는 UFI라고도 하는데, 보통 음수(예: 암스테르담 ID는  "
+"<strong-2140479이나, 미국 지명은 양수일도 수 있음</strong)이며, 지역, 지구, "
+"랜드마크의 경우에는 항상 양수입니다(예: 이비자 ID는 725). "
+
+#: inc/core-functions.php:209
+msgid "long"
+msgstr "길게"
+
+#: inc/core-functions.php:210
+msgid "short"
+msgstr "짧게"
+
+#: inc/core-functions.php:232 inc/core-functions.php:242
+msgid "Left"
+msgstr "왼쪽"
+
+#: inc/core-functions.php:233 inc/core-functions.php:243
+msgid "Centre"
+msgstr "중앙"
+
+#: inc/core-functions.php:234 inc/core-functions.php:244
+msgid "Right"
+msgstr "오른쪽"
+
+#: inc/core-functions.php:249 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "선택중..."
+
+#: inc/core-functions.php:250 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "도시"
+
+#: inc/core-functions.php:251 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "관광 명소"
+
+#: inc/core-functions.php:253 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "지역"
+
+#: inc/core-functions.php:254
+msgid "airport"
+msgstr "공항"
+
+#: inc/core-functions.php:259
+msgid "px"
+msgstr ""
+
+#: inc/core-functions.php:260
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:278 inc/core-functions.php:285
+msgid "needs to be an integer"
+msgstr "제휴 ID는 정수로 구성되어야 합니다"
+
+#: inc/core-functions.php:292 inc/static.php:136
+#, fuzzy
+#| msgid ""
+#| "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#| "9. Please change it."
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr ""
+"제휴 ID는 파트너 ID와는 별도이며, 1, 3, 8, 9 중 하나의 숫자로 시작합니다. 다"
+"시 시도해주세요."
+
+#: inc/core-functions.php:304
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr "슬러그가 여러 개일 때는 영숫자 또는 쉼표로만 구분해주세요"
+
+#: inc/core-functions.php:315
+msgid "Cname format is incorrect"
+msgstr "cname 형식이 올바르지 않습니다."
+
+#: inc/core-functions.php:323
+msgid "Missing or incorrect information"
+msgstr "누락된 또는 틀린 정보"
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:259
+#: inc/helpers/searchbox.php:108
+msgid "Check-in date"
+msgstr "체크인 날짜 "
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Booking.com 검색창 여행지"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr ""
+"다음 필드를 사용하여 특정 포스트/페이지만을 위한 단일 목적지 Booking.com 검색"
+"창 위젯을 설치하십시오"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "예: 암스테르담"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:248 inc/helpers/searchbox.php:107
+msgid "Destination"
+msgstr "여행지"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "여행지 타입 "
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "지역"
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "예: 암스테르담은 -2140479"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "여행지 ID (예: 암스테르담은 -2140479) "
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "귀하의 제휴 ID"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"제휴 ID는 Booking.com이 수수료를 트래킹할 수 있도록 부여한 고유 번호입니다. "
+"아직 제휴 가입하지 않은 분이라면\n"
+"<a href=“https://www.booking.com/affiliate-program/v2/index.html” "
+"target=“_blank”>당사의 제휴 프로그램을 확인</a>\n"
+"하고 제휴 ID를 먼저 부여받으시기 바랍니다. 쉽고 간단합니다.\n"
+"<a href=“https://www.booking.com/affiliate-program/v2/index.html” "
+"target=“_blank”>지금 가입하고</a>\n"
+"수입을 창출해보십시오. "
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "예:"
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "가로"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+" 가로 크기가 정해져 있습니까?(예: 150px) 픽셀 조건을 입력하시면 검색창 가로 "
+"크기를 간단하게 설정하실 수 있습니다. 이 항목을 비워두시면 기본 크기로 자동 "
+"설정됩니다. "
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"cname을 가지고 계신 경우 여기서 설정하세요. 단, 설정 시 반드시 www.booking."
+"com과 연결하고 저희 지원 팀에 연락 주시기 바랍니다."
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "예:  hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "체크 박스에 "
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "원하는 로고와 크기 선택 "
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "버튼 위치"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "로고 위치"
+
+#: inc/helpers/searchbox-fields.php:107
+#, fuzzy
+#| msgid "Check-in date"
+msgid "Set check-in date"
+msgstr "체크인 날짜 "
+
+#: inc/helpers/searchbox-fields.php:119
+#, fuzzy
+#| msgid "Check-out date"
+msgid "Set check-out date"
+msgstr " 체크아웃 날짜"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr "특정 여행지(예: 암스테르담)로 자동 입력 설정하실 수 있습니다."
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr ""
+"커스텀 포스트 타입(Custom Post Type)을 위해 메타 박스를 활성화하세요 (슬러그 "
+"사용)"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr ""
+"다수의 포스트가 있으신 경우 &quot;,&quot;(쉼표)로 구분하세요. 예) cpt1, cpt "
+"2, cpt 3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "배경색 "
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Text colour"
+msgstr "텍스트 색"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Button background colour"
+msgstr "버튼 배경색 "
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Button border colour"
+msgstr "버튼 테두리색 "
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Button text colour"
+msgstr "버튼 텍스트 색 "
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "호텔, 숙소 검색..."
+
+#: inc/helpers/searchbox-fields.php:237 inc/helpers/searchbox.php:106
+msgid "Search hotels and more..."
+msgstr "호텔 및 다양한 숙박 업체 검색 "
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Destination ( e.g. Destination )"
+msgstr "여행지 ( {e.g.} 여행지 ) "
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "체크인(예: 체크인 날짜) "
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "체크아웃(예: 체크아웃 날짜)"
+
+#: inc/helpers/searchbox-fields.php:270 inc/helpers/searchbox.php:109
+msgid "Check-out date"
+msgstr " 체크아웃 날짜"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Submit button ( e.g. Search )"
+msgstr "입력 버튼 (예: 검색하기) "
+
+#: inc/helpers/searchbox-fields.php:281 inc/helpers/searchbox.php:110
+msgid "Search"
+msgstr "검색"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"아래에서 Booking.com 검색창을 원하는 스타일로 설정하거나,<strong>Appearance "
+"> Widgets</strong>에서 기본 검색창을 찾아 사용하십시오. "
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "미리보기 "
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "설정 저장 "
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "기본형으로 리셋하기 "
+
+#: inc/helpers/searchbox.php:180 inc/helpers/searchbox.php:181
+#: inc/helpers/searchbox.php:194
+msgid "Click the lock icon to choose another destination"
+msgstr "다른 목적지를 선택하시려면 자물쇠 아이콘을 클릭하십시오."
+
+#: inc/helpers/searchbox.php:204 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "예: 도시, 지역 또는 호텔 이름"
+
+#: inc/helpers/searchbox.php:231
+msgid " I don't have specific dates yet "
+msgstr "숙박일 미정"
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr "죄송합니다. 검색을 위해 최소한 한글자 이상을 입력하셔야 합니다."
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"체크아웃 날짜가 체크인 날짜부터 31박 이후입니다. 예약은 최대 30박까지만 가능"
+"합니다. 다른 날짜를 다시 입력하세요."
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr "체크인 날짜가 과거입니다. 날짜를 확인하고 다시 입력하십시오."
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"체크아웃 날짜가 체크인 날짜보다 앞서므로 날짜를 다시 확인해 주시기 바랍니다."
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "다음달"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "달력을 클릭하신 후 날짜를 선택하시기 바랍니다. "
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "이전 달"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "닫기"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "1월"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "2월"
+
+#: inc/static.php:100
+msgid "March"
+msgstr "3월"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "4월"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "5월"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "6월"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "7월"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "8월"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "9월"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "10월"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "11월"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "12월"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "(월)"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "(화)"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "(수)"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "(목)"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "(금)"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "(토)"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "(일)"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "업데이트 중... "
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "닫기"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "숙소 검색창 표시하기"
+
+#~ msgid "Jan"
+#~ msgstr "1월"
+
+#~ msgid "Feb"
+#~ msgstr "2월"
+
+#~ msgid "Mar"
+#~ msgstr "3월"
+
+#~ msgid "Apr"
+#~ msgstr "4월"
+
+#~ msgid "May "
+#~ msgstr "5월"
+
+#~ msgid "Jun"
+#~ msgstr "6월"
+
+#~ msgid "Jul"
+#~ msgstr "7월"
+
+#~ msgid "Aug"
+#~ msgstr "8월"
+
+#~ msgid "Sept"
+#~ msgstr "9월"
+
+#~ msgid "Oct"
+#~ msgstr "10월"
+
+#~ msgid "Nov"
+#~ msgstr "11월"
+
+#~ msgid "Dec"
+#~ msgstr "12월"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "캘린더가 필요하십니까?"
+
+#~ msgid "Month format"
+#~ msgstr "월 형식"

@@ -1,0 +1,649 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com searchbox plugin 1.4\n"
+"POT-Creation-Date: 2022-02-03 14:40+0100\n"
+"PO-Revision-Date: 2022-02-03 14:43+0100\n"
+"Last-Translator: \n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+msgid "Booking.com Search Box settings"
+msgstr "Booking.com Zoekveld instellingen"
+
+#: inc/core-functions.php:26
+msgid "Booking.com Search Box"
+msgstr "Booking.com Zoekveld"
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "Hoofdinstellingen"
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "Voorgeselecteerde bestemming"
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "Kleurschema"
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "Tekst in zoekbox"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr "Gebruik deze instellingen om uw zoekbox aan te passen."
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+"Gebruik de volgende velden om een specifieke bestemming te kiezen. "
+"Bestemmingstypes en -ID's maken de zoekopdrachten van gasten nauwkeuriger."
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "Geef hier de instellingen van uw kleurschema aan."
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "Pas de tekst in de zoekbox hier aan."
+
+#: inc/core-functions.php:199 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"Voor meer informatie over uw bestemmings-ID kunt u inloggen op het <a href="
+"\"https://admin.booking.com/partner/\" target=\"_blank\">Affiliate Center</"
+"a>. Controleer het onderdeel \"URL Constructor\" om uw bestemmings-ID te "
+"vinden. Deze ID's, ook wel bekend als UFI's, zien er vaak uit als een "
+"negatief nummer (bijv. <strong>-2140479 voor Amsterdam</strong>, voor de VS "
+"kunnen ze ook positief zijn), maar regio's, wijken, en bezienswaardigheden "
+"zijn altijd positief (bijv. <strong>1408 voor Ibiza</strong>)."
+
+#: inc/core-functions.php:234
+msgid "long"
+msgstr "lang"
+
+#: inc/core-functions.php:235
+msgid "short"
+msgstr "kort"
+
+#: inc/core-functions.php:257 inc/core-functions.php:267
+msgid "Left"
+msgstr "Links"
+
+#: inc/core-functions.php:258 inc/core-functions.php:268
+msgid "Centre"
+msgstr "Midden"
+
+#: inc/core-functions.php:259 inc/core-functions.php:269
+msgid "Right"
+msgstr "Rechts"
+
+#: inc/core-functions.php:274 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "selecteer..."
+
+#: inc/core-functions.php:275 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "stad"
+
+#: inc/core-functions.php:276 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "attractie"
+
+#: inc/core-functions.php:278 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "regio"
+
+#: inc/core-functions.php:279
+msgid "airport"
+msgstr "luchthaven"
+
+#: inc/core-functions.php:284
+msgid "px"
+msgstr "px"
+
+#: inc/core-functions.php:285
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:307
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr "Gebruik alleen alfanumerieke reeksen, en komma’s voor meerdere slugs"
+
+#: inc/core-functions.php:318
+msgid "Cname format is incorrect"
+msgstr "CNAME format is onjuist"
+
+#: inc/core-functions.php:326
+msgid "Missing or incorrect information"
+msgstr "Ontbrekende of incorrecte informatie"
+
+#: inc/core-functions.php:335 inc/core-functions.php:342
+msgid "needs to be an integer"
+msgstr "moet een geheel getal"
+
+#: inc/core-functions.php:349 inc/static.php:143
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr ""
+"Een Affiliate-ID is iets anders dan een Partner-ID. Uw Affiliate-ID zou met "
+"een 1, 3, 8 of 9 moeten beginnen. Probeer het nogmaals."
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:336
+#: inc/helpers/searchbox.php:115
+msgid "Check-in date"
+msgstr "Incheckdatum"
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Bestemming in Booking.com zoekveld"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr ""
+"Gebruik het onderstaande formulier om slechts &eacute;&eacute;n bestemming "
+"voor de Booking.com zoekveld-widget in te stellen voor deze post/pagina"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "bijv. Amsterdam"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:325 inc/helpers/searchbox.php:114
+msgid "Destination"
+msgstr "Bestemming"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "Type bestemming"
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "wijk"
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "bijv. -2140479 voor Amsterdam"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "Bestemmings-ID (bijv. -2140479 voor Amsterdam)"
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "Uw affiliate-ID"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Uw affiliate-ID is een uniek getal waarmee Booking.com uw commissie kan "
+"herleiden. Als u nog geen affiliate partner bent, <a href=“https://www."
+"booking.com/affiliate-program/v2/index.html” target=\"_blank\">check dan ons "
+"affiliateprogramma</a> om een affiliate-ID te krijgen. Dat gaat snel en "
+"eenvoudig. <a href=“https://www.booking.com/affiliate-program/v2/index.html” "
+"target=\"_blank\">Schrijf u nu in</a> en begin met geld verdienen"
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "bijv."
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "Breedte"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"Wilt u een specifieke breedte (bijv. 150px)? U kunt de breedte van de "
+"zoekbox gemakkelijk aanpassen door het aantal pixels aan te geven. Als u "
+"hier niets invult, krijgt u de standaard instellingen."
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr "Widget Breedte Achtervoegsel (px of %)"
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"Stel uw CNAME in als u deze heeft. Zorg ervoor dat deze naar www.booking.com "
+"verwijst en informeer ons support team."
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "bijv. hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "Voeg de optie"
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "Kies het logo en formaat van uw voorkeur"
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "Knop positie"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "Positie van het logo"
+
+#: inc/helpers/searchbox-fields.php:107
+msgid "Set check-in date"
+msgstr "Incheckdatum instellen"
+
+#: inc/helpers/searchbox-fields.php:119
+msgid "Set check-out date"
+msgstr "Uitcheckdatum instellen"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr ""
+"In dit veld kunt u naar wens een suggestie voor een bestemming tonen (bijv. "
+"Amsterdam)"
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr "Schakel Metaboxes in voor Custom Post Types (gebruik de slug)"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr ""
+"Als u meerdere berichten heeft, gebruik dan een \",\" (komma) om ze te "
+"scheiden, bijv.: cpt1, cpt2, cpt3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "Achtergrondkleur"
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Headline Text size"
+msgstr "Koptekst grote"
+
+#: inc/helpers/searchbox-fields.php:188
+msgid "Font size in px"
+msgstr "Lettertype grote in px"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Headline Text colour"
+msgstr "Koptekst kleur"
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Text colour"
+msgstr "Tekstkleur"
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Destination Text colour"
+msgstr "Bestemming Tekstkleur"
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Destination Background colour"
+msgstr "Bestemming Achtergrondkleur"
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Flex Date Text colour"
+msgstr "Tekstkleur Flex Datum"
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Date Background colour"
+msgstr "Datum Achtergrondkleur"
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Date Text colour"
+msgstr "Datum Tekstkleur"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Button background colour"
+msgstr "Knop - achtergrondkleur"
+
+#: inc/helpers/searchbox-fields.php:286
+msgid "Button border colour"
+msgstr "Knop - randkleur"
+
+#: inc/helpers/searchbox-fields.php:297
+msgid "Button text colour"
+msgstr "Knop - tekstkleur"
+
+#: inc/helpers/searchbox-fields.php:308
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "Zoek hotels en meer..."
+
+#: inc/helpers/searchbox-fields.php:314 inc/helpers/searchbox.php:113
+msgid "Search hotels and more..."
+msgstr "Zoek hotels en meer..."
+
+#: inc/helpers/searchbox-fields.php:319
+msgid "Destination ( e.g. Destination )"
+msgstr "Bestemming ( bijv. Bestemming )"
+
+#: inc/helpers/searchbox-fields.php:330
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "Inchecken (bijv. Incheckdatum)"
+
+#: inc/helpers/searchbox-fields.php:341
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "Uitchecken (bijv. Uitcheckdatum)"
+
+#: inc/helpers/searchbox-fields.php:347 inc/helpers/searchbox.php:116
+msgid "Check-out date"
+msgstr "Uitcheckdatum"
+
+#: inc/helpers/searchbox-fields.php:352
+msgid "Submit button ( e.g. Search )"
+msgstr "Actie-knop (bijv. Zoek)"
+
+#: inc/helpers/searchbox-fields.php:358 inc/helpers/searchbox.php:117
+msgid "Search"
+msgstr "Zoek"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"Pas uw Booking.com-zoekbox hieronder aan, of maak gebruik van de standaard "
+"zoekbox die u vindt bij <strong>Weergave > Widgets </strong>."
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+"Heb je de nieuwe <a href=\"https://wordpress.org/plugins/bookingcom-banner-"
+"creator/\" target=\"_blank\">Banner Creator</a> plugin al gedownload? Veel "
+"responsive en aanpasbare banners voor je WP website!"
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "Terugzetten naar standaardinstellingen"
+
+#: inc/helpers/searchbox.php:193 inc/helpers/searchbox.php:194
+#: inc/helpers/searchbox.php:207
+msgid "Click the lock icon to choose another destination"
+msgstr "Klik op het icoon van het hangslot om een andere bestemming te kiezen"
+
+#: inc/helpers/searchbox.php:217 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "bijv. stad, regio, wijk of specifiek hotel"
+
+#: inc/helpers/searchbox.php:244
+msgid " I don't have specific dates yet "
+msgstr " Ik heb nog geen specifieke datum "
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr ""
+"Sorry, we hebben ten minste een deel van de naam nodig om te kunnen zoeken."
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"De uitcheckdatum mag niet meer dan 30 nachten na de incheckdatum liggen. "
+"Reserveringen hebben een maximale verblijfsduur van 30 nachten. Vul a.u.b. "
+"alternatieve data in en probeer het opnieuw."
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr ""
+"Aankomstdatum ligt in het verleden. Controleer uw data en probeer opnieuw."
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"Controleer alstublieft uw ingevulde data: de datum van uitchecken is eerder "
+"dan de datum van inchecken."
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "Volgende maand"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "Open de kalender om een datum te kiezen"
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "Vorige maand"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "Kalender sluiten"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "Januari"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "Februari"
+
+#: inc/static.php:100
+msgid "March"
+msgstr "Maart"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "April"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "Mei"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "Juni"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "Juli"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "Augustus"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "September"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "Oktober"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "November"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "December"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "Ma"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "Di"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "Wo"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "Do"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "Vr"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "Za"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "Zo"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "Bezig met updaten…"
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "Sluiten"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "Accommodatie zoekveld tonen"
+
+#~ msgid ""
+#~ "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#~ "9. Please change it."
+#~ msgstr ""
+#~ "Een Affiliate-ID is iets anders dan een Partner-ID. Uw Affiliate-ID zou "
+#~ "met een 1, 3, 8 of 9 moeten beginnen. Probeer het nogmaals."
+
+#~ msgid "Apr"
+#~ msgstr "Apr"
+
+#~ msgid "Aug"
+#~ msgstr "Aug"
+
+#~ msgid "Booking.com Official Search Box"
+#~ msgstr "Booking.com Official Search Box"
+
+#~ msgid "Dec"
+#~ msgstr "Dec"
+
+#~ msgid "Feb"
+#~ msgstr "Feb"
+
+#~ msgid ""
+#~ "http://www.booking.com/general.html?tmpl=docs/partners_affiliate_examples"
+#~ msgstr ""
+#~ "http://www.booking.com/general.html?tmpl=docs/partners_affiliate_examples"
+
+#~ msgid "Jan"
+#~ msgstr "Jan"
+
+#~ msgid "Jul"
+#~ msgstr "Jul"
+
+#~ msgid "Jun"
+#~ msgstr "Jun"
+
+#~ msgid "Mar"
+#~ msgstr "Mrt"
+
+#~ msgid "May "
+#~ msgstr "Mei "
+
+#~ msgid "Month format"
+#~ msgstr "Maandweergave"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "Wilt u een kalender?"
+
+#~ msgid "Nov"
+#~ msgstr "Nov"
+
+#~ msgid "Oct"
+#~ msgstr "Okt"
+
+#~ msgid ""
+#~ "Select if the above width should be in pixels or percentage (default is "
+#~ "px)"
+#~ msgstr ""
+#~ "Selecteer of de bovenstaande breedte pixels of procent moet zijn "
+#~ "(standaard is px)"
+
+#~ msgid "Sept"
+#~ msgstr "Sept"
+
+#~ msgid "Strategic Partnerships Department at Booking.com"
+#~ msgstr "Strategic Partnerships Afdeling bij Booking.com"
+
+#~ msgid ""
+#~ "This plugin creates a search box for Booking.com Affiliate Partners to "
+#~ "implement using their affiliate ID. If you’re not an Affiliate Partner "
+#~ "yet, you can still implement the plugin. To get the most out of the "
+#~ "plugin and earn commission, you’ll need to <a href=\"http://www.booking."
+#~ "com/content/affiliates.html\" target=\"_blank\">sign up for the Booking."
+#~ "com Affiliate Partner Programme.</a>"
+#~ msgstr ""
+#~ "Deze plug-in maakt een zoekvak aan dat Affiliate Partners van Booking.com "
+#~ "kunnen implementeren met behulp van hun affiliate ID. Als u nog geen "
+#~ "Affiliate Partner bent, kunt u de plug-in nog steeds implementeren. Om "
+#~ "het meeste uit de plug-in te halen en commissie te verdienen, <a href="
+#~ "\"http://www.booking.com/content/affiliates.html\" target=\"_blank\"> "
+#~ "meld u aan voor het Booking.com Affiliate Partner Programma.</a>"

@@ -1,0 +1,624 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Official Search box ver 2.0\n"
+"POT-Creation-Date: 2022-01-10 10:57+0100\n"
+"PO-Revision-Date: 2022-01-10 10:57+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box settings"
+msgstr "Destinasi di kotak pencarian Booking.com"
+
+#: inc/core-functions.php:26
+#, fuzzy
+#| msgid "Booking.com Official Search Box"
+msgid "Booking.com Search Box"
+msgstr "Kotak pencarian Booking.com resmi "
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "Pengaturan"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "Pengaturan utama"
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "Isian destinasi"
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "Tabel warna"
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "Teks kotak pencarian"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr "Gunakan pengaturan ini untuk menyesuaikan kotak pencarian Anda."
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+"Gunakan kolom berikut ini untuk memilih destinasi tertentu. Jenis dan kode "
+"destinasi menjadikan pencarian tamu lebih akurat."
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "Masukkan pengaturan warna Anda di sini."
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "Sesuaikan teks kotak pencarian di sini. "
+
+#: inc/core-functions.php:181 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"Untuk informasi tentang kode destinasi, login ke <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Sentra Mitra</a>. Periksa bagian "
+"<em>&quot;penyusun URL&quot;</em> untuk menemukan kode destinasi Anda. Kode "
+"ini juga dikenal sebagai UFI dan biasanya merupakan angka negatif (mis. "
+"<strong>-2679652 untuk Jakarta</strong>, tetapi bisa juga angka positif "
+"untuk AS) sementara wilayah, distrik, dan landmark selalu angka positif "
+"(mis. <strong>Ibiza adalah 1408</strong>)."
+
+#: inc/core-functions.php:209
+msgid "long"
+msgstr "panjang"
+
+#: inc/core-functions.php:210
+msgid "short"
+msgstr "pendek"
+
+#: inc/core-functions.php:232 inc/core-functions.php:242
+msgid "Left"
+msgstr "Kiri"
+
+#: inc/core-functions.php:233 inc/core-functions.php:243
+msgid "Centre"
+msgstr "Tengah"
+
+#: inc/core-functions.php:234 inc/core-functions.php:244
+msgid "Right"
+msgstr "Kanan"
+
+#: inc/core-functions.php:249 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "pilih…"
+
+#: inc/core-functions.php:250 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "kota"
+
+#: inc/core-functions.php:251 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "landmark"
+
+#: inc/core-functions.php:253 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "wilayah"
+
+#: inc/core-functions.php:254
+msgid "airport"
+msgstr "Bandara"
+
+#: inc/core-functions.php:259
+msgid "px"
+msgstr ""
+
+#: inc/core-functions.php:260
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:278 inc/core-functions.php:285
+msgid "needs to be an integer"
+msgstr "ini harus berupa bilangan bulat. "
+
+#: inc/core-functions.php:292 inc/static.php:136
+#, fuzzy
+#| msgid ""
+#| "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#| "9. Please change it."
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr ""
+"ID afiliasi berbeda dengan ID mitra. ID afiliasi Anda harus dimulai dengan "
+"1,3,8, atau 9. Harap coba lagi."
+
+#: inc/core-functions.php:304
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr ""
+"Hanya boleh menggunakan string alfanumerik dan koma untuk beberapa slug"
+
+#: inc/core-functions.php:315
+msgid "Cname format is incorrect"
+msgstr "Format Cname tidak benar"
+
+#: inc/core-functions.php:323
+msgid "Missing or incorrect information"
+msgstr "Informasi yang hilang atau salah"
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:259
+#: inc/helpers/searchbox.php:108
+msgid "Check-in date"
+msgstr "Tanggal check-in"
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Destinasi di kotak pencarian Booking.com"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr ""
+"Gunakan kolom di bawah ini untuk menetapkan satu destinasi di dalam widget "
+"kotak pencarian Booking.com Anda terkait kiriman/halaman tertentu"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "mis. Jakarta"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:248 inc/helpers/searchbox.php:107
+msgid "Destination"
+msgstr "Destinasi"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "Jenis destinasi"
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "kawasan"
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "mis. -2679652 untuk Jakarta"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "Kode destinasi (mis. -2679652 untuk Jakarta)"
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "Nomor identitas afiliasi Anda"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Nomor identitas afiliasi Anda adalah nomor unik yang memungkinkan Booking."
+"com untuk mencatat komisi Anda. Kalau Anda belum menjadi afiliasi, <a "
+"href=“https://www.booking.com/affiliate-program/v2/index.html” target="
+"\"_blank\">lihat program afiliasi kami</a> dan dapatkan nomor identitas "
+"afiliasi dengan mudah dan cepat. Mulailah menghasilkan uang dan <a "
+"href=“https://www.booking.com/affiliate-program/v2/index.html” target="
+"\"_blank\">daftar sekarang!</a>"
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "mis."
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "Lebar"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"Perlu ukuran lebar yang spesifik (mis. 150px)? Anda bisa menyesuaikan lebar "
+"kotak pencarian Anda dengan mudah. Masukkan saja jumlah piksel yang Anda "
+"inginkan. Kalau Anda mengosongkan kolom ini, maka Anda akan menggunakan "
+"pengaturan default."
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"Siapkan cname Anda jika Anda memilikinya. Jangan lupa untuk mengarahkannya "
+"ke www.booking.com dan beri tahu tim bantuan kami."
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "mis. hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "Tambahkan kotak centang untuk &quot;tanggal fleksibel&quot;"
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "Pilih logo dan dimensi yang Anda mau"
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "Posisi tombol"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "Posisi logo"
+
+#: inc/helpers/searchbox-fields.php:107
+#, fuzzy
+#| msgid "check-in date"
+msgid "Set check-in date"
+msgstr "tanggal check-in"
+
+#: inc/helpers/searchbox-fields.php:119
+#, fuzzy
+#| msgid "check-out date"
+msgid "Set check-out date"
+msgstr "tanggal check-out"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr ""
+"Kolom ini bisa Anda isikan lebih dulu dengan destinasi tertentu (mis. "
+"Jakarta)"
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr "Aktifkan meta box untuk Tipe Post Kustom (gunakan slug)"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr ""
+"Jika Anda memiliki beberapa post, gunakan &quot;,&quot; (koma) untuk "
+"memisahkannya. mis.: cpt1, cpt2, cpt3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "Warna latar belakang"
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Text colour"
+msgstr "Warna teks"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Button background colour"
+msgstr "Warna latar belakang tombol"
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Button border colour"
+msgstr "Warna tepian tombol"
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Button text colour"
+msgstr "Warna teks tombol"
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "Judul standar (mis. Cari hotel dan lain-lain...)"
+
+#: inc/helpers/searchbox-fields.php:237 inc/helpers/searchbox.php:106
+msgid "Search hotels and more..."
+msgstr "Cari hotel dan lainnya..."
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Destination ( e.g. Destination )"
+msgstr "Destinasi (mis. Destinasi)"
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "Check-in (mis. Tanggal check-in)"
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "Check-out (mis. Tanggal check-out) "
+
+#: inc/helpers/searchbox-fields.php:270 inc/helpers/searchbox.php:109
+msgid "Check-out date"
+msgstr "Tanggal check-out"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Submit button ( e.g. Search )"
+msgstr "Tombol kirim (mis. Cari)"
+
+#: inc/helpers/searchbox-fields.php:281 inc/helpers/searchbox.php:110
+msgid "Search"
+msgstr "Cari"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"Sesuaikan kotak pencarian Booking.com Anda di bawah ini atau gunakan kotak "
+"pencarian default dengan membuka <strong>Tampilan &gt; Widget</strong> "
+"sekarang. "
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "Pratinjau"
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "Simpan perubahan"
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "Setel ulang ke default"
+
+#: inc/helpers/searchbox.php:180 inc/helpers/searchbox.php:181
+#: inc/helpers/searchbox.php:194
+msgid "Click the lock icon to choose another destination"
+msgstr "Klik ikon gembok untuk memilih destinasi lain"
+
+#: inc/helpers/searchbox.php:204 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "mis. kota, daerah, distrik, atau nama hotel"
+
+#: inc/helpers/searchbox.php:231
+msgid " I don't have specific dates yet "
+msgstr "Saya belum punya tanggal yang pasti"
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr ""
+"Maaf, kami memerlukan setidaknya sebagian dari nama tujuan untuk mulai "
+"mencari"
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"Tanggal check-out Anda melebihi 30 malam setelah tanggal check-in Anda. "
+"Pemesanan hanya bisa dilakukan untuk periode maksimal 30 malam. Silakan "
+"masukkan tanggal yang berbeda lalu coba lagi."
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr ""
+"Tanggal check-in Anda telah lewat. Silakan periksa kembali tanggal Anda lalu "
+"coba lagi."
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"Harap periksa tanggal Anda, tanggal check-out sepertinya lebih awal daripada "
+"tanggal check-in."
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "Bulan depan"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "Buka kalender dan pilih tanggal"
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "Bulan sebelumnya"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "Tutup kalender"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "Januari"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "Februari"
+
+#: inc/static.php:100
+msgid "March"
+msgstr "Maret"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "April"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "Mei"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "Juni"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "Juli"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "Agustus"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "September"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "Oktober"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "November"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "Desember"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "Sen"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "Sel"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "Rab"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "Kam"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "Jum"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "Sab"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "Min"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "Mengupdate..."
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "Tutup"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "Tampilkan kotak pencarian akomodasi"
+
+#~ msgid "Jan"
+#~ msgstr "Jan"
+
+#~ msgid "Feb"
+#~ msgstr "Feb"
+
+#~ msgid "Mar"
+#~ msgstr "Mar"
+
+#~ msgid "Apr"
+#~ msgstr "Apr"
+
+#~ msgid "May "
+#~ msgstr "Mei"
+
+#~ msgid "Jun"
+#~ msgstr "Jun"
+
+#~ msgid "Jul"
+#~ msgstr "Jul"
+
+#~ msgid "Aug"
+#~ msgstr "Agu"
+
+#~ msgid "Sept"
+#~ msgstr "Sep"
+
+#~ msgid "Oct"
+#~ msgstr "Okt"
+
+#~ msgid "Nov"
+#~ msgstr "Nov"
+
+#~ msgid "Dec"
+#~ msgstr "Des"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "Perlu kalender? "
+
+#~ msgid "Month format"
+#~ msgstr "Format bulan"
+
+#~ msgid ""
+#~ "For more info on your destination ID, login to the <a href=\"https://"
+#~ "admin.booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check "
+#~ "<em>&quot;URL constructor&quot;</em> section to find your destination ID. "
+#~ "These IDs, also known as UFIs, are usually a negative number ( e.g. "
+#~ "<strong>-2140479 is for Amsterdam</strong> , but can be positive ones in "
+#~ "the US ) while regions, district and landmarks are always positive ( e.g. "
+#~ "<strong>725 is for Ibiza</strong> )."
+#~ msgstr ""
+#~ "Untuk informasi tentang kode destinasi, login ke <a href=\"https://admin."
+#~ "booking.com/partner/\" target=\"_blank\">Sentra Mitra</a>. Periksa bagian "
+#~ "<em>&quot;penyusun URL&quot;</em> untuk menemukan kode destinasi Anda. "
+#~ "Kode ini juga dikenal sebagai UFI dan biasanya merupakan angka negatif "
+#~ "(mis. <strong>-2679652 untuk Jakarta</strong>, tetapi bisa juga angka "
+#~ "positif untuk AS) sementara wilayah, distrik, dan landmark selalu angka "
+#~ "positif (mis. <strong>Ibiza adalah 725</strong>)."
+
+#~ msgid "Protocol"
+#~ msgstr "Protokol"
+
+#~ msgid "Choose https only if your pages are on a secure ( https ) enviroment"
+#~ msgstr ""
+#~ "Pilih https hanya kalau halaman Anda menggunakan lingkungan aman (https) "
+
+#~ msgid "destination"
+#~ msgstr "destinasi"
+
+#~ msgid "Need a hotel?"
+#~ msgstr "Butuh hotel?"
+
+#~ msgid "Open calandar and pick a date"
+#~ msgstr "Buka kalender dan pilih tanggal"

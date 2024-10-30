@@ -1,0 +1,609 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Official Search box ver 2.0\n"
+"POT-Creation-Date: 2022-01-10 11:15+0100\n"
+"PO-Revision-Date: 2022-01-10 11:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box settings"
+msgstr "Booking.com arama kutucuğunda destinasyon"
+
+#: inc/core-functions.php:26
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box"
+msgstr "Booking.com arama kutucuğunda destinasyon"
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "Genel ayarlar"
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "Destinasyon ayarla"
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "Renk düzeni "
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "Arama kutusu metni"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr "Bu ayarları kullanarak arama kutunuzu &ouml;zelleştirin. "
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+"Aşağıdaki satırları kullanarak belirli bir destinasyon (seyahat noktası) "
+"se&ccedil;in. Destinasyon tipleri ve ID'leri konuk aramalarının daha doğru "
+"şekilde sonu&ccedil;lanmasını sağlar."
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "Renk d&uuml;zen ayarlarınızı buraya girin."
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "Arama kutusu metnini buradan &ouml;zelleştirebilirsiniz."
+
+#: inc/core-functions.php:181 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"Destinasyon ID numarası ile ilgili daha fazla bilgi i&ccedil;in <a href="
+"\"https://admin.booking.com/partner/\" target=\"_blank\">Ortak Merkezi'ne</"
+"a> giriş yapın. Destinasyon ID numaranızı bulmak i&ccedil;in <em>&quot;URL "
+"kurucusu&quot;</em> b&ouml;l&uuml;m&uuml;n&uuml; inceleyin. Aynı zamanda UFI "
+"olarak da anılan bu ID numaraları genellikle negatif bir sayıdır (&ouml;rn. "
+"<strong> İstanbul i&ccedil;in -2140479</strong>, ancak ABD'de pozitif "
+"olabilir) b&ouml;lgeler, semtler ve simgesel yapılarsa her zaman pozitif "
+"sayılardır (&ouml;rn. <strong>Ibiza 1408</strong>). "
+
+#: inc/core-functions.php:209
+msgid "long"
+msgstr "Uzun"
+
+#: inc/core-functions.php:210
+msgid "short"
+msgstr "Kısa"
+
+#: inc/core-functions.php:232 inc/core-functions.php:242
+msgid "Left"
+msgstr "Sol"
+
+#: inc/core-functions.php:233 inc/core-functions.php:243
+msgid "Centre"
+msgstr "Orta"
+
+#: inc/core-functions.php:234 inc/core-functions.php:244
+msgid "Right"
+msgstr "Sağ"
+
+#: inc/core-functions.php:249 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "seç… "
+
+#: inc/core-functions.php:250 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "Şehir"
+
+#: inc/core-functions.php:251 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "Simge yapı"
+
+#: inc/core-functions.php:253 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "B&ouml;lge"
+
+#: inc/core-functions.php:254
+msgid "airport"
+msgstr "Havaalanı"
+
+#: inc/core-functions.php:259
+msgid "px"
+msgstr ""
+
+#: inc/core-functions.php:260
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:278 inc/core-functions.php:285
+msgid "needs to be an integer"
+msgstr "bir tam sayı olması gerekir"
+
+#: inc/core-functions.php:292 inc/static.php:136
+#, fuzzy
+#| msgid ""
+#| "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#| "9. Please change it."
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr ""
+"Tesis Kullanıcı Numarası, Ortak Numarasından farklıdır. Tesis kullanıcı "
+"numaranız 1, 3, 8 veya 9 ile başlamalıdır. L&uuml;tfen tekrar deneyin."
+
+#: inc/core-functions.php:304
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr ""
+"Birden fazla kısa isim i&ccedil;in sadece alfa sayısal dize ve virg&uuml;"
+"ller kullanın"
+
+#: inc/core-functions.php:315
+msgid "Cname format is incorrect"
+msgstr "CNAME formatı yanlış"
+
+#: inc/core-functions.php:323
+msgid "Missing or incorrect information"
+msgstr "Eksik veya yanlış bilgi"
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:259
+#: inc/helpers/searchbox.php:108
+msgid "Check-in date"
+msgstr "Check-in tarihi"
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Booking.com arama kutucuğunda destinasyon"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr ""
+"Aşağıdaki formu kullanarak bu paylaşım veya sayfaya &ouml;zel Booking.com "
+"arama kutucuğu aracı i&ccedil;in belirli tek bir konum se&ccedil;ebilirsiniz"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "&ouml;r. İstanbul"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:248 inc/helpers/searchbox.php:107
+msgid "Destination"
+msgstr "Seyahat noktası"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "Seyahat noktası tipi"
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "Semt"
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "örn. İstanbul için -755070"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "Destinasyon ID Numarası (örn. İstanbul için -755070) "
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "Tesis ID'niz"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Tesis ID'niz, Booking.com'un komisyonunuzu takip etmesini sağlayan benzersiz "
+"bir numaradır. Hen&uuml;z ortak değilseniz <a href=“https://www.booking.com/"
+"affiliate-program/v2/index.html” target=“_blank”>ortaklık programımıza bir "
+"g&ouml;z</a> atın ve tesis ID'si alın. Kolay ve hızlı! <a href=“https://www."
+"booking.com/affiliate-program/v2/index.html” target=“_blank”>Hemen kayıt "
+"olun</a>, para kazanmaya başlayın"
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "&ouml;rn. "
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "Genişlik"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"Belirli bir genişlik mi istiyorsunuz (&ouml;r. 150 px)? Arama kutunuzun "
+"b&uuml;y&uuml;kl&uuml;ğ&uuml;n&uuml; kolaylıkla ayarlayabilirsiniz. Piksel "
+"gereksinimlerini girmeniz yeterli. Bu alanı boş bıraktığınız takdirde "
+"varsayılan ayarları kullanacaksınız. "
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"Eğer varsa, size ait CNAME'i kurun. Bunu www.booking.com adresine y&ouml;"
+"nlendirmeyi ve destek ekibimizi bilgilendirmeyi unutmayın. "
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "&ouml;rn. hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "&quot;Esnek tarih&quot; işaret kutusu ekle"
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "Tercih ettiğiniz logo ve boyutu se&ccedil;in"
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "D&uuml;ğme konumu"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "Logo konumu"
+
+#: inc/helpers/searchbox-fields.php:107
+#, fuzzy
+#| msgid "Check-in date"
+msgid "Set check-in date"
+msgstr "Check-in tarihi"
+
+#: inc/helpers/searchbox-fields.php:119
+#, fuzzy
+#| msgid "Check-out date"
+msgid "Set check-out date"
+msgstr "Check-out tarihi"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr ""
+"Bu alanı belirli bir seyahat noktasıyla doldurabilirsiniz (&ouml;r. İstanbul)"
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr ""
+"&Ouml;zel G&ouml;nderi T&uuml;rleri i&ccedil;in meta kutuları etkinleştirin "
+"(kısa isim kullanın)"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr ""
+"Birden fazla g&ouml;nderiniz varsa, bunları ayırmak i&ccedil;in virg&uuml;l "
+"(&quot;,&quot;) kullanın. &Ouml;r.: cpt1, cpt2, cpt3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "Fon rengi "
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Text colour"
+msgstr "Metin rengi"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Button background colour"
+msgstr "Buton zemin rengi"
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Button border colour"
+msgstr "Buton kenar rengi"
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Button text colour"
+msgstr "Buton metin rengi"
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "Otel ve daha fazlasını arama..."
+
+#: inc/helpers/searchbox-fields.php:237 inc/helpers/searchbox.php:106
+msgid "Search hotels and more..."
+msgstr "Oteller ve daha fazlasını ara..."
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Destination ( e.g. Destination )"
+msgstr "Seyahat noktası ( {e.g.} Seyahat noktası )"
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "Check-in (&ouml;r. Check-in tarihi)"
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "Check-out (&ouml;r. Check-out tarihi)"
+
+#: inc/helpers/searchbox-fields.php:270 inc/helpers/searchbox.php:109
+msgid "Check-out date"
+msgstr "Check-out tarihi"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Submit button ( e.g. Search )"
+msgstr "Onay butonu (&ouml;r. Ara)"
+
+#: inc/helpers/searchbox-fields.php:281 inc/helpers/searchbox.php:110
+msgid "Search"
+msgstr "Ara"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"Booking.com arama kutunuzu kişiselleştirin veya <strong>G&ouml;r&uuml;n&uuml;"
+"m &gt; Ara&ccedil;lar</strong> kısmına gelerek varsayılan arama kutusunu "
+"kullanın. "
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "&Ouml;n izleme"
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "Değişiklikleri kaydet"
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "Varsayılana sıfırla"
+
+#: inc/helpers/searchbox.php:180 inc/helpers/searchbox.php:181
+#: inc/helpers/searchbox.php:194
+msgid "Click the lock icon to choose another destination"
+msgstr "Başka bir destinasyon se&ccedil;mek i&ccedil;in kilit ikonuna tıklayın"
+
+#: inc/helpers/searchbox.php:204 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "&Ouml;rneğin: Şehir, b&ouml;lge, semt veya belirli bir otel"
+
+#: inc/helpers/searchbox.php:231
+msgid " I don't have specific dates yet "
+msgstr "Tarihlerim daha kesinleşmedi "
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr ""
+"&Uuml;zg&uuml;n&uuml;z, arama yapmaya başlamak i&ccedil;in ismin en azından "
+"bir kısmına ihtiyacımız var."
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"Check-out tarihiniz check-in tarihinizden 30 gece sonradır. Rezervasyonlar "
+"en fazla 30 gecelik yapılabilir. L&uuml;tfen farklı tarihler girip tekrar "
+"deneyiniz."
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr ""
+"Ge&ccedil;miş bir check-in tarihi girdiniz. L&uuml;tfen tarihlerinizi "
+"kontrol edip tekrar deneyiniz."
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"L&uuml;tfen tarihlerinizi g&ouml;zden ge&ccedil;irin, check-out tarihiniz "
+"check-in tarihinizden daha erken g&ouml;z&uuml;k&uuml;yor."
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "Sonraki ay"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "Takvimi a&ccedil; ve bir tarih se&ccedil;"
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "&Ouml;nceki ay"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "Takvimi kapat"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "Ocak"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "Şubat"
+
+#: inc/static.php:100
+msgid "March"
+msgstr "Mart"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "Nisan"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "Mayıs"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "Haziran"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "Temmuz"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "Ağustos"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "Eyl&uuml;l"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "Ekim"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "Kasım"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "Aralık"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "Pts"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "Sal"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "Çar"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "Per"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "Cum"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "Cts"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "Paz"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "Sayfa yenileniyor..."
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "Kapat"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "Tesis arama kutucuğunu g&ouml;ster "
+
+#~ msgid "Jan"
+#~ msgstr "Oca"
+
+#~ msgid "Feb"
+#~ msgstr "Şub"
+
+#~ msgid "Mar"
+#~ msgstr "Mar"
+
+#~ msgid "Apr"
+#~ msgstr "Nis"
+
+#~ msgid "May "
+#~ msgstr "Mayıs"
+
+#~ msgid "Jun"
+#~ msgstr "Haz"
+
+#~ msgid "Jul"
+#~ msgstr "Tem"
+
+#~ msgid "Aug"
+#~ msgstr "Ağu"
+
+#~ msgid "Sept"
+#~ msgstr "Eyl"
+
+#~ msgid "Oct"
+#~ msgstr "Eki"
+
+#~ msgid "Nov"
+#~ msgstr "Kasım"
+
+#~ msgid "Dec"
+#~ msgstr "Ara"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "Takvime mi ihtiyacınız var? "
+
+#~ msgid "Month format"
+#~ msgstr "Ay g&ouml;r&uuml;n&uuml;m&uuml; "
+
+#~ msgid "If multiple, use \",\" ( comma ) i.e.: cpt1, cpt2, ctp3"
+#~ msgstr "If multiple, use \",\" ( comma ) i.e.: cpt1, cpt2, ctp3"
+
+#~ msgid ""
+#~ "affiliate ID is different from partner ID: should start with a 3 or an 8. "
+#~ "Please change it."
+#~ msgstr ""
+#~ "affiliate ID is different from partner ID: should start with a 3 or an 8. "
+#~ "Please change it."
+
+#~ msgid "Use just alfanumeric strings and commas for multiple slugs"
+#~ msgstr "Use just alfanumeric strings and commas for multiple slugs"

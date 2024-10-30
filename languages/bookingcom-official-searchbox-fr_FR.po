@@ -1,0 +1,755 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Official Search box ver 2.0\n"
+"POT-Creation-Date: 2022-02-03 14:51+0100\n"
+"PO-Revision-Date: 2022-02-03 14:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box settings"
+msgstr "Formulaire de recherche de Booking.com"
+
+#: inc/core-functions.php:26
+#, fuzzy
+#| msgid "Booking.com Official Search Box"
+msgid "Booking.com Search Box"
+msgstr "Formulaire de recherche officiel de Booking.com"
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "R&eacute;glages"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "Principaux r&eacute;glages"
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "Destination pr&eacute;s&eacute;lectionn&eacute;e"
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "Palette de couleurs"
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "Texte de la fen&ecirc;tre de recherche"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr ""
+"Utilisez ces param&egrave;tres pour personnaliser votre fen&ecirc;tre de "
+"recherche."
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr ""
+"Utilisez les champs suivants pour s&eacute;lectionner une destination "
+"sp&eacute;cifique. Les recherches des clients sont plus pr&eacute;cises avec "
+"les <em>types de destination</em> et les <em>num&eacute;ros "
+"d'identification</em>."
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "Saisissez vos param&egrave;tres de couleurs."
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "Personnalisez le texte de votre fen&ecirc;tre de recherche ici."
+
+#: inc/core-functions.php:199 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"Pour obtenir plus d'informations sur le num&eacute;ro d'identification de "
+"votre destination, veuillez vous connecter au <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Centre Affili&eacute;</a> puis "
+"consultez la section <em>&laquo; G&eacute;n&eacute;rateur d'URL &raquo</em>. "
+"Ces num&eacute;ros d'identification, &eacute;galement connus comme UFI, sont "
+"g&eacute;n&eacute;ralement un num&eacute;ro n&eacute;gatif (par ex. "
+"<strong>-2140479 pour Amsterdam</strong>, mais peuvent &ecirc;tre positifs "
+"pour les &Eacute;tats-Unis) tandis que les r&eacute;gions, les quartiers et "
+"les sites d'int&eacute;r&ecirc;t poss&egrave;dent toujours un num&eacute;ro "
+"positif (par ex. <strong>1408 pour Ibiza</strong>)."
+
+#: inc/core-functions.php:234
+msgid "long"
+msgstr "long"
+
+#: inc/core-functions.php:235
+msgid "short"
+msgstr "court"
+
+#: inc/core-functions.php:257 inc/core-functions.php:267
+msgid "Left"
+msgstr "Gauche"
+
+#: inc/core-functions.php:258 inc/core-functions.php:268
+msgid "Centre"
+msgstr "Centre"
+
+#: inc/core-functions.php:259 inc/core-functions.php:269
+msgid "Right"
+msgstr "Droite"
+
+#: inc/core-functions.php:274 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "S&eacute;lectionnez&hellip;"
+
+#: inc/core-functions.php:275 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "ville"
+
+#: inc/core-functions.php:276 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "site d&rsquo;int&eacute;r&ecirc;t "
+
+#: inc/core-functions.php:278 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "r&eacute;gion"
+
+#: inc/core-functions.php:279
+msgid "airport"
+msgstr "a&eacute;roport"
+
+#: inc/core-functions.php:284
+msgid "px"
+msgstr "px"
+
+#: inc/core-functions.php:285
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:307
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr ""
+"Utilisez uniquement des caract&egrave;res alphanum&eacute;riques et des "
+"virgules pour saisir plusieurs identifiants"
+
+#: inc/core-functions.php:318
+msgid "Cname format is incorrect"
+msgstr "Le format du CNAME est invalide."
+
+#: inc/core-functions.php:326
+msgid "Missing or incorrect information"
+msgstr "Informations manquantes ou erron&eacute;es"
+
+#: inc/core-functions.php:335 inc/core-functions.php:342
+msgid "needs to be an integer"
+msgstr "ce nombre doit &ecirc;tre un nombre entier"
+
+#: inc/core-functions.php:349 inc/static.php:143
+#, fuzzy
+#| msgid ""
+#| "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#| "9. Please change it."
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr ""
+"Votre identifiant affili&eacute; est diff&eacute;rent de l'identifiant de "
+"votre &eacute;tablissement. Votre identifiant affili&eacute; commence par le "
+"chiffre 1, 3, 8 ou 9. Veuillez r&eacute;essayer."
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:336
+#: inc/helpers/searchbox.php:115
+msgid "Check-in date"
+msgstr "Du"
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Formulaire de recherche de Booking.com"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr ""
+"Utilisez le formulaire ci-dessous afin d'&eacute;tablir une destination "
+"unique pour le widget Booking.com pour cette page ou ce message sp&eacute;"
+"cifique"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "par ex. Paris"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:325 inc/helpers/searchbox.php:114
+msgid "Destination"
+msgstr "Destination"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "Type de destination"
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "quartiers / arrondissements "
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "par ex. -1456928 pour Paris"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr ""
+"Num&eacute;ro d'identification de la destination (par ex. -1456928 pour "
+"Paris)"
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "Votre num&eacute;ro d'affiliation"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"Votre identifiant affili&eacute; est une s&eacute;rie de chiffres unique qui "
+"permet &agrave; Booking.com de calculer la commission. Si vous n&rsquo;"
+"&ecirc;tes pas encore affili&eacute;, <a href=“https://www.booking.com/"
+"affiliate-program/v2/index.html” target=\"_blank\">consultez notre programme "
+"Partenaire Affili&eacute;</a> et obtenez votre identifiant. C&rsquo;est "
+"simple et rapide ! <a href=“https://www.booking.com/affiliate-program/v2/"
+"index.html” target=\"_blank\">Gagnez de l&rsquo;argent d&egrave;s maintenant "
+"en vous inscrivant !</a>"
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "par ex."
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "Largeur"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"Vous avez besoin d&rsquo;une largeur pr&eacute;cise (150 pixels par ex.) ? "
+"Vous pouvez facilement personnaliser la largeur de votre fen&ecirc;tre de "
+"recherche en indiquant le nombre de pixels souhait&eacute;s. Si vous laissez "
+"le champ vide, vous obtiendrez la largeur par d&eacute;faut."
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"Param&eacute;trez votre CNAME si vous en poss&eacute;dez un. Pensez &agrave; "
+"le pointer vers www.booking.com et &agrave; en informer votre &eacute;quipe "
+"d'assistance."
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "par ex. hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "Ajoutez une case pour l&rsquo;option &laquo; dates flexibles &raquo; "
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "S&eacute;lectionnez le logo et les dimensions de votre choix"
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "Position du bouton"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "Emplacement du logo"
+
+#: inc/helpers/searchbox-fields.php:107
+#, fuzzy
+#| msgid "check-in date"
+msgid "Set check-in date"
+msgstr "Du"
+
+#: inc/helpers/searchbox-fields.php:119
+#, fuzzy
+#| msgid "check-out date"
+msgid "Set check-out date"
+msgstr "Au"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr ""
+"Vous pouvez pr&eacute;-remplir ce champ avec une destination sp&eacute;"
+"cifique (par ex : Paris )"
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr ""
+"Activez les m&eacute;tabox pour les Types de Contenu Personnalis&eacute;s "
+"(utilisez l'identifiant)"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr ""
+"Si vous avez plusieurs types de contenus, utilisez une virgule pour les "
+"s&eacute;parer. Ex : cpt1, cpt2, cpt3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "Couleur de l&rsquo;arri&egrave;re-plan"
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Headline Text size"
+msgstr "Taille du texte du titre"
+
+#: inc/helpers/searchbox-fields.php:188
+msgid "Font size in px"
+msgstr "Taille de la police en px"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Headline Text colour"
+msgstr "Couleur du texte du titre"
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Text colour"
+msgstr "Couleur du texte"
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Destination Text colour"
+msgstr "Couleur du texte de destination"
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Destination Background colour"
+msgstr "Couleur d’arrière-plan de la destination"
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Flex Date Text colour"
+msgstr "Couleur du texte Flex Date"
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Date Background colour"
+msgstr "Date Couleur de fond"
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Date Text colour"
+msgstr "Date Couleur du texte"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Button background colour"
+msgstr "Couleur de l'arri&egrave;re-plan du bouton"
+
+#: inc/helpers/searchbox-fields.php:286
+msgid "Button border colour"
+msgstr "Couleur de la bordure du bouton"
+
+#: inc/helpers/searchbox-fields.php:297
+msgid "Button text colour"
+msgstr "Couleur du texte du bouton"
+
+#: inc/helpers/searchbox-fields.php:308
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr ""
+"Titre par d&eacute;faut ( par ex. Rechercher des h&ocirc;tels et d'autres "
+"types d'h&eacute;bergements... )"
+
+#: inc/helpers/searchbox-fields.php:314 inc/helpers/searchbox.php:113
+msgid "Search hotels and more..."
+msgstr "Recherche d'h&ocirc;tels et autres..."
+
+#: inc/helpers/searchbox-fields.php:319
+msgid "Destination ( e.g. Destination )"
+msgstr "Destination (par ex. Destination)"
+
+#: inc/helpers/searchbox-fields.php:330
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "Arriv&eacute;e (par ex. : Date d&rsquo;arriv&eacute;e)"
+
+#: inc/helpers/searchbox-fields.php:341
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "D&eacute;part (par ex. : Date de d&eacute;part)"
+
+#: inc/helpers/searchbox-fields.php:347 inc/helpers/searchbox.php:116
+msgid "Check-out date"
+msgstr "Au"
+
+#: inc/helpers/searchbox-fields.php:352
+msgid "Submit button ( e.g. Search )"
+msgstr "Bouton de validation (par ex. : Rechercher) "
+
+#: inc/helpers/searchbox-fields.php:358 inc/helpers/searchbox.php:117
+msgid "Search"
+msgstr "Rechercher"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"Personnalisez votre fenêtre de recherche Booking.com ci-dessous ou utilisez "
+"la fenêtre par défaut dans le menu <strong>Apparence &gt; Widgets</strong>. "
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+"Avez-vous déjà téléchargé le nouveau plugin <a href=“https://wordpress.org/"
+"plugins/bookingcom-banner-creator/“ target=“_blank”>Banner Creator</a> ? De "
+"nombreuses bannières réactives et personnalisables prêtes à l’emploi pour "
+"votre site WP !"
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "Aper&ccedil;u"
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "R&eacute;initialiser par d&eacute;faut"
+
+#: inc/helpers/searchbox.php:193 inc/helpers/searchbox.php:194
+#: inc/helpers/searchbox.php:207
+msgid "Click the lock icon to choose another destination"
+msgstr "Cliquez sur le cadenas pour choisir une autre destination."
+
+#: inc/helpers/searchbox.php:217 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "ex. ville, r&eacute;gion, quartier ou h&ocirc;tel sp&eacute;cifique"
+
+#: inc/helpers/searchbox.php:244
+msgid " I don't have specific dates yet "
+msgstr "Je n'ai pas de dates de s&eacute;jour pr&eacute;cises"
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr ""
+"D&eacute;sol&eacute;s, nous avons besoin de conna&icirc;tre au moins une "
+"partie du nom pour lancer la recherche."
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"La date de d&eacute;part ne peut d&eacute;passer de plus de 30 nuits la date "
+"d'arriv&eacute;e. Les r&eacute;servations sont accept&eacute;es pour un "
+"s&eacute;jour de 30 nuits maximum. Veuillez modifier vos dates et r&eacute;"
+"essayer."
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr ""
+"La date d'arriv&eacute;e est pass&eacute;e. Veuillez modifier vos dates et "
+"r&eacute;essayer."
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr ""
+"Veuillez v&eacute;réifier vos dates de s&eacute;jour. La date de d&eacute;"
+"part est ant&eacute;rieure à la date d'arriv&eacute;e."
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "Mois suivant"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "Ouvrir le calendrier et choisir une date"
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "Mois pr&eacute;c&eacute;dent"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "Fermer le calendrier"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "Janvier"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "F&eacute;vrier "
+
+#: inc/static.php:100
+msgid "March"
+msgstr "Mars"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "Avril"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "Mai"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "Juin"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "Juillet"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "Ao&ucirc;t"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "Septembre"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "Octobre"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "Novembre"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "D&eacute;cembre"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "Lu"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "Ma"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "Me"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "Je"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "Ve"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "Sa"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "Di"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "Chargement..."
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "Fermer"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "Afficher un formulaire de recherche d'h&eacute;bergements"
+
+#~ msgid "Jan"
+#~ msgstr "Jan"
+
+#~ msgid "Feb"
+#~ msgstr "F&eacute;v"
+
+#~ msgid "Mar"
+#~ msgstr "Mar"
+
+#~ msgid "Apr"
+#~ msgstr "Avr"
+
+#~ msgid "May "
+#~ msgstr "Mai"
+
+#~ msgid "Jun"
+#~ msgstr "Juin"
+
+#~ msgid "Jul"
+#~ msgstr "Juil"
+
+#~ msgid "Aug"
+#~ msgstr "Ao&ucirc;t"
+
+#~ msgid "Sept"
+#~ msgstr "Sept"
+
+#~ msgid "Oct"
+#~ msgstr "Oct"
+
+#~ msgid "Nov"
+#~ msgstr "Nov"
+
+#~ msgid "Dec"
+#~ msgstr "D&eacute;c"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "Besoin d’un calendrier ?"
+
+#~ msgid "Month format"
+#~ msgstr "Format des mois"
+
+#~ msgid ""
+#~ "For more info on your destination ID, login to the <a href=\"https://"
+#~ "admin.booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check "
+#~ "<em>&quot;URL constructor&quot;</em> section to find your destination ID. "
+#~ "These IDs, also known as UFIs, are usually a negative number ( e.g. "
+#~ "<strong>-2140479 is for Amsterdam</strong> , but can be positive ones in "
+#~ "the US ) while regions, district and landmarks are always positive ( e.g. "
+#~ "<strong>725 is for Ibiza</strong> )."
+#~ msgstr ""
+#~ "Pour obtenir plus d'informations sur le num&eacute;ro d'identification de "
+#~ "votre destination, veuillez vous connecter au <a href=\"https://admin."
+#~ "booking.com/partner/\" target=\"_blank\">Centre Affili&eacute;</a> puis "
+#~ "consultez la section <em>&laquo; G&eacute;n&eacute;rateur d'URL &raquo</"
+#~ "em>. Ces num&eacute;ros d'identification, &eacute;galement connus comme "
+#~ "UFI, sont g&eacute;n&eacute;ralement un num&eacute;ro n&eacute;gatif (par "
+#~ "ex. <strong>-2140479 pour Amsterdam</strong>, mais peuvent &ecirc;tre "
+#~ "positifs pour les &Eacute;tats-Unis) tandis que les r&eacute;gions, les "
+#~ "quartiers et les sites d'int&eacute;r&ecirc;t poss&egrave;dent toujours "
+#~ "un num&eacute;ro positif (par ex. <strong>725 pour Ibiza</strong>)."
+
+#~ msgid "Protocol"
+#~ msgstr "Protocole"
+
+#~ msgid "Choose https only if your pages are on a secure ( https ) enviroment"
+#~ msgstr ""
+#~ "Choisissez https seulement si vos pages sont dans un environnement "
+#~ "(https) s&eacute;curis&eacute;"
+
+#~ msgid "destination"
+#~ msgstr "destination"
+
+#~ msgid "Need a hotel?"
+#~ msgstr "Besoin d'un h&ocirc;tel?"
+
+#~ msgid "If you like, you can pre-fill destination field (Ex. Amsterdam)"
+#~ msgstr ""
+#~ "Si vous voulez, vous pouvez pre-remplir la case de la déstination (Ex. "
+#~ "Amsterdam)"
+
+#~ msgid ""
+#~ "Do you need a specific width (Ex. 150 means 150px)? If you leave it empty "
+#~ "widget automatically will fit container width"
+#~ msgstr ""
+#~ "Avez-vous besoin d’une largeur sp&eacute;cifique (Ex. 150 signifie "
+#~ "150px)? Si vous laissez la case vide, “widget” adaptera automatiquement  "
+#~ "la largeur."
+
+#~ msgid "Dark or white logo and which dimensions?"
+#~ msgstr "Logo sombre ou clair et quelles dimensions?"
+
+#~ msgid "Change default title"
+#~ msgstr "Changer le titre par d&eacute;faut"
+
+#~ msgid "Change checkin text"
+#~ msgstr "Changer le texte de la case check in"
+
+#~ msgid "Change checkout text"
+#~ msgstr "Changer le texte de la case check out"
+
+#~ msgid "Change submit text"
+#~ msgstr "Changer le texte du bouton \"search\""
+
+#~ msgid "Wordings"
+#~ msgstr "Les mots"
+
+#~ msgid "Enter your main settings here."
+#~ msgstr "&Eacute;tablissez vos principaux r&eacute;glages ici"
+
+#~ msgid "Change wordings here."
+#~ msgstr "Changez les mots ici."
+
+#~ msgid "left"
+#~ msgstr "gauche"
+
+#~ msgid "center"
+#~ msgstr "centre"
+
+#~ msgid "Incorrect values entered!"
+#~ msgstr "Donn&eacute;es enregistr&eacute;es erron&eacute;es!"
+
+#~ msgid "Open calandar and pick a date"
+#~ msgstr "Ouvrir le calendrier et choisir une date"
+
+#~ msgid ""
+#~ "After filling at least <strong>aid number</strong>, you'll be able to use "
+#~ "Booking.com searchbox in <strong>Appearance > Widgets</strong> section."
+#~ msgstr ""
+#~ "Apr&egrave;s avoir rempli <strong>aid number</strong>, vous pourrez "
+#~ "utilizer la bo&icirc;te de recherche Booking.com dans la partie "
+#~ "<strong>Apparence > Widgets</strong>."
+
+#~ msgid "yes"
+#~ msgstr "oui"
+
+#~ msgid "no"
+#~ msgstr "court"
+
+#~ msgid "Display Booking.com logo"
+#~ msgstr "Affichez le logo de Booking.com"
+
+#~ msgid "recommended"
+#~ msgstr "conseill&eacute;"
+
+#~ msgid "checkin-date"
+#~ msgstr "du"
+
+#~ msgid "checkout-date"
+#~ msgstr "au"

@@ -1,0 +1,584 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Booking.com Official Search box ver 2.0\n"
+"POT-Creation-Date: 2022-01-10 11:18+0100\n"
+"PO-Revision-Date: 2022-01-10 11:20+0100\n"
+"Last-Translator: \n"
+"Language-Team: Strategic Partnership at Booking.com <wp-plugins@booking."
+"com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/core-functions.php:25
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box settings"
+msgstr "Booking.com搜索栏中的目的地"
+
+#: inc/core-functions.php:26
+#, fuzzy
+#| msgid "Booking.com search box destination"
+msgid "Booking.com Search Box"
+msgstr "Booking.com搜索栏中的目的地"
+
+#: inc/core-functions.php:55
+msgid "Settings"
+msgstr "设置"
+
+#: inc/core-functions.php:70
+msgid "Main settings"
+msgstr "基本设置"
+
+#: inc/core-functions.php:76
+msgid "Preset destination"
+msgstr "预设目的地"
+
+#: inc/core-functions.php:82
+msgid "Colour scheme"
+msgstr "配色"
+
+#: inc/core-functions.php:88
+msgid "Search box text"
+msgstr "搜索栏文字"
+
+#: inc/core-functions.php:114
+msgid "Use these settings to customise your search box."
+msgstr "您可以通过以下项目自行设置搜索栏。"
+
+#: inc/core-functions.php:120
+msgid ""
+"Use the following fields to select a specific destination. <em>Destination "
+"types</em> and <em>IDs</em> make guest searches more accurate."
+msgstr "请在以下栏目中设置特定目的地。目的地类型和ID可以帮助客人进行精确搜索。"
+
+#: inc/core-functions.php:126
+msgid "Enter your colour scheme settings here."
+msgstr "请在此设置您的配色方案。"
+
+#: inc/core-functions.php:132
+msgid "Customise the search box text here."
+msgstr "请在此设置搜索栏文字。"
+
+#: inc/core-functions.php:181 inc/helpers/meta_boxes.php:84
+msgid ""
+"For more info on your destination ID, login to the <a href=\"https://admin."
+"booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check <em>&quot;"
+"URL constructor&quot;</em> section to find your destination ID. These IDs, "
+"also known as UFIs, are usually a negative number ( e.g. <strong>-2140479 is "
+"for Amsterdam</strong> , but can be positive ones in the US ) while regions, "
+"district and landmarks are always positive ( e.g. <strong>1408 is for Ibiza</"
+"strong> )."
+msgstr ""
+"如需了解更多有关您的目的地ID的信息，请登录<a href=\"https://admin.booking."
+"com/partner/\" target=\"_blank\">合作伙伴管理中心</a>，在“网址创建器”栏目中即"
+"可找到您的目的地ID。此类ID（又称UFI）通常为负数（<strong>比如阿姆斯特丹的ID"
+"是-2140479</strong>，但美国的部分目的地ID为正数）；地区、区和地标的ID则均为正"
+"数（<strong>比如伊维萨岛的ID为1408</strong>）。"
+
+#: inc/core-functions.php:209
+msgid "long"
+msgstr "长"
+
+#: inc/core-functions.php:210
+msgid "short"
+msgstr "短"
+
+#: inc/core-functions.php:232 inc/core-functions.php:242
+msgid "Left"
+msgstr "居左"
+
+#: inc/core-functions.php:233 inc/core-functions.php:243
+msgid "Centre"
+msgstr "居中"
+
+#: inc/core-functions.php:234 inc/core-functions.php:244
+msgid "Right"
+msgstr "居右"
+
+#: inc/core-functions.php:249 inc/helpers/meta_boxes.php:68
+msgid "select..."
+msgstr "请选择…"
+
+#: inc/core-functions.php:250 inc/helpers/meta_boxes.php:69
+msgid "city"
+msgstr "城市"
+
+#: inc/core-functions.php:251 inc/helpers/meta_boxes.php:70
+msgid "landmark"
+msgstr "地标"
+
+#: inc/core-functions.php:253 inc/helpers/meta_boxes.php:72
+msgid "region"
+msgstr "地区"
+
+#: inc/core-functions.php:254
+msgid "airport"
+msgstr "飞机场"
+
+#: inc/core-functions.php:259
+msgid "px"
+msgstr ""
+
+#: inc/core-functions.php:260
+msgid "%"
+msgstr "%"
+
+#: inc/core-functions.php:278 inc/core-functions.php:285
+msgid "needs to be an integer"
+msgstr "需要是一个整数"
+
+#: inc/core-functions.php:292 inc/static.php:136
+#, fuzzy
+#| msgid ""
+#| "affiliate ID is different from partner ID: should start with a 1, 3, 8 or "
+#| "9. Please change it."
+msgid ""
+"Affiliate ID is different from partner ID: should start with a 1, 3, 8 or 9. "
+"Please change it."
+msgstr "不同于合作伙伴ID，分销伙伴ID应该以1、3、8或9开头。请重试"
+
+#: inc/core-functions.php:304
+msgid "Use only alphanumeric strings and commas for multiple slugs"
+msgstr "输入多个别名（slug）时仅可使用字母数字字符和逗号"
+
+#: inc/core-functions.php:315
+msgid "Cname format is incorrect"
+msgstr "Cname格式不正确"
+
+#: inc/core-functions.php:323
+msgid "Missing or incorrect information"
+msgstr "丢失或不正确信息"
+
+#: inc/helpers/date_array.php:19 inc/helpers/searchbox-fields.php:259
+#: inc/helpers/searchbox.php:108
+msgid "Check-in date"
+msgstr "入住日期"
+
+#: inc/helpers/meta_boxes.php:44
+msgid "Booking.com search box destination"
+msgstr "Booking.com搜索栏中的目的地"
+
+#: inc/helpers/meta_boxes.php:55
+msgid ""
+"Use the following fields to select a location for your Booking.com search "
+"box widget for this specific post or page"
+msgstr "请在下方表格中为本文/本页的Booking.com搜索栏设置特定的目的地"
+
+#: inc/helpers/meta_boxes.php:58 inc/helpers/searchbox-fields.php:138
+msgid "e.g. Amsterdam"
+msgstr "如：阿姆斯特丹"
+
+#: inc/helpers/meta_boxes.php:62 inc/helpers/searchbox-fields.php:132
+#: inc/helpers/searchbox-fields.php:248 inc/helpers/searchbox.php:107
+msgid "Destination"
+msgstr "目的地"
+
+#: inc/helpers/meta_boxes.php:66 inc/helpers/searchbox-fields.php:143
+msgid "Destination type"
+msgstr "目的地类型"
+
+#: inc/helpers/meta_boxes.php:71
+msgid "district"
+msgstr "区"
+
+#: inc/helpers/meta_boxes.php:78 inc/helpers/searchbox-fields.php:160
+msgid "e.g. -2140479 for Amsterdam"
+msgstr "如：阿姆斯特丹的ID为-2140479"
+
+#: inc/helpers/meta_boxes.php:80 inc/helpers/searchbox-fields.php:154
+msgid "Destination ID ( e.g. -2140479 for Amsterdam )"
+msgstr "目的地ID（如：阿姆斯特丹的ID为-2140479"
+
+#: inc/helpers/searchbox-fields.php:18
+msgid "Your affiliate ID"
+msgstr "您的会员ID"
+
+#: inc/helpers/searchbox-fields.php:19
+msgid ""
+"Your affiliate ID is a unique number that allows Booking.com to track "
+"commission. If you are not an affiliate yet, <a href=\"https://www.booking."
+"com/affiliate-program/v2/index.html\" target=\"_blank\">check our affiliate "
+"programme</a> and get an affiliate ID. It's easy and fast. Start earning "
+"money, <a href=\"https://www.booking.com/affiliate-program/v2/index.html\" "
+"target=\"_blank\">sign up now!</a>"
+msgstr ""
+"您的会员ID是一串独一无二的数字，Booking.com可据此来查询您的佣金支付情况。如果"
+"您还不是我们的会员酒店，请<a href=“https://www.booking.com/affiliate-program/"
+"v2/index.html” target=“_blank”>查看我们的联盟会员项目</a>并快速获取会员ID。"
+"<a href=“https://www.booking.com/affiliate-program/v2/index.html” "
+"target=“_blank”>马上注册</a>，收益更多"
+
+#: inc/helpers/searchbox-fields.php:24
+msgid "e.g."
+msgstr "如:"
+
+#: inc/helpers/searchbox-fields.php:29
+msgid "Width"
+msgstr "宽度"
+
+#: inc/helpers/searchbox-fields.php:30
+msgid ""
+"Need a specific width (e.g. 150px)? You can customise the width of your "
+"search box easily - just fill in your pixel requirements. If you leave this "
+"field empty, you'll get default settings."
+msgstr ""
+"需要指定搜索栏宽度（如：150像素）？只需输入您需要的宽度（单位：像素）即可。如"
+"果您在这一栏留空，将采用默认设置。"
+
+#: inc/helpers/searchbox-fields.php:40
+msgid "Widget Width Suffix (px or %)"
+msgstr ""
+
+#: inc/helpers/searchbox-fields.php:51
+msgid "Cname"
+msgstr "Cname"
+
+#: inc/helpers/searchbox-fields.php:52
+msgid ""
+"Set your cname if you have one. Remember to point it to www.booking.com and "
+"to inform our support team."
+msgstr ""
+"若您已拥有cname，请在此进行设置，并确保其指向www.booking.com及通知我们的支持"
+"团队。"
+
+#: inc/helpers/searchbox-fields.php:57
+msgid "e.g. hotels.mydomain.com"
+msgstr "如: hotels.mydomain.com"
+
+#: inc/helpers/searchbox-fields.php:62
+msgid "Add a &quot;flexible-date&quot; check box"
+msgstr "添加“灵活日期”勾选框"
+
+#: inc/helpers/searchbox-fields.php:73
+msgid "Select which logo and dimension you prefer"
+msgstr "选择logo和尺寸"
+
+#: inc/helpers/searchbox-fields.php:84
+msgid "Button position"
+msgstr "按钮位置"
+
+#: inc/helpers/searchbox-fields.php:95
+msgid "Logo position"
+msgstr "Logo位置 "
+
+#: inc/helpers/searchbox-fields.php:107
+#, fuzzy
+#| msgid "Check-in date"
+msgid "Set check-in date"
+msgstr "入住日期"
+
+#: inc/helpers/searchbox-fields.php:119
+#, fuzzy
+#| msgid "Check-out date"
+msgid "Set check-out date"
+msgstr "退房日期"
+
+#: inc/helpers/searchbox-fields.php:133
+msgid ""
+"You can pre-fill this field with a specific destination ( e.g. Amsterdam )"
+msgstr "您可以在此填写特定目的地名称（如：阿姆斯特丹），作为搜索栏的预设关键词"
+
+#: inc/helpers/searchbox-fields.php:155
+#, php-format
+msgid ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+msgstr ""
+"<a href=\"#\" id=\"bos_info_displayer\" title=\"Info box\"><img style="
+"\"border: none;\" src=\"%s\" alt=\"info\"></a>"
+
+#: inc/helpers/searchbox-fields.php:165
+msgid "Enable meta boxes for these Custom Post Type ( use the slug )"
+msgstr ""
+"启用自定义文章类型（Custom Post Types）的Meta模块（使用自定义固定连接结构别名"
+"slug）"
+
+#: inc/helpers/searchbox-fields.php:166
+msgid ""
+"If you have multiple posts, use a \",\" (comma) to separate them. i.e.: "
+"cpt1, cpt2, cpt3"
+msgstr "如果您拥有多个文章类型，请使用逗号“,”进行间隔。例如：cp1,cp2,cp3"
+
+#: inc/helpers/searchbox-fields.php:176
+msgid "Background colour"
+msgstr "背景颜色"
+
+#: inc/helpers/searchbox-fields.php:187
+msgid "Text colour"
+msgstr "文字颜色"
+
+#: inc/helpers/searchbox-fields.php:198
+msgid "Button background colour"
+msgstr "按钮背景颜色"
+
+#: inc/helpers/searchbox-fields.php:209
+msgid "Button border colour"
+msgstr "按钮边框颜色"
+
+#: inc/helpers/searchbox-fields.php:220
+msgid "Button text colour"
+msgstr "按钮文字颜色"
+
+#: inc/helpers/searchbox-fields.php:231
+msgid "Default title ( e.g. Search hotels and more... )"
+msgstr "搜索酒店或其他住宿"
+
+#: inc/helpers/searchbox-fields.php:237 inc/helpers/searchbox.php:106
+msgid "Search hotels and more..."
+msgstr "搜索酒店或其他类型住宿"
+
+#: inc/helpers/searchbox-fields.php:242
+msgid "Destination ( e.g. Destination )"
+msgstr "目的地 ( 如 : 目的地 )"
+
+#: inc/helpers/searchbox-fields.php:253
+msgid "Check-in ( e.g. Check-in date )"
+msgstr "入住（如：入住日期)"
+
+#: inc/helpers/searchbox-fields.php:264
+msgid "Check-out ( e.g. Check-out date )"
+msgstr "退房（如：退房日期)"
+
+#: inc/helpers/searchbox-fields.php:270 inc/helpers/searchbox.php:109
+msgid "Check-out date"
+msgstr "退房日期"
+
+#: inc/helpers/searchbox-fields.php:275
+msgid "Submit button ( e.g. Search )"
+msgstr "提交按钮（如：搜索)"
+
+#: inc/helpers/searchbox-fields.php:281 inc/helpers/searchbox.php:110
+msgid "Search"
+msgstr "搜索"
+
+#: inc/helpers/searchbox.php:20
+msgid ""
+"Customise your Booking.com search box below, or use the default search box "
+"by navigating to <strong>Appearance &gt; Widgets</strong> now."
+msgstr ""
+"您可以自行设置Booking.com搜索栏，或前往<strong>外观 > 小工具</strong>菜单，使"
+"用默认搜索栏。"
+
+#: inc/helpers/searchbox.php:30 inc/helpers/searchbox.php:53
+msgid ""
+"Have you already downloaded the new <a href=\"https://wordpress.org/plugins/"
+"bookingcom-banner-creator/\" target=\"_blank\">Banner Creator</a> plugin? "
+"Lots of responsive and customisable ready-to-use banners for your WP site!"
+msgstr ""
+
+#: inc/helpers/searchbox.php:43
+msgid "Preview"
+msgstr "预览"
+
+#: inc/helpers/searchbox.php:44
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: inc/helpers/searchbox.php:45
+msgid "Reset to default"
+msgstr "重设为默认值"
+
+#: inc/helpers/searchbox.php:180 inc/helpers/searchbox.php:181
+#: inc/helpers/searchbox.php:194
+msgid "Click the lock icon to choose another destination"
+msgstr "点击小锁符号选择另一个目的地"
+
+#: inc/helpers/searchbox.php:204 inc/static.php:119
+msgid "e.g. city, region, district or specific hotel"
+msgstr "例如：城市、地区、区或特定酒店名称"
+
+#: inc/helpers/searchbox.php:231
+msgid " I don't have specific dates yet "
+msgstr "我还没有确定具体日期"
+
+#: inc/static.php:90
+msgid "Sorry, we need at least part of the name to start searching."
+msgstr "抱歉，我们至少需要名字的一部分才可以开始搜索。"
+
+#: inc/static.php:91
+msgid ""
+"Your check-out date is more than 30 nights after your check-in date. "
+"Bookings can only be made for a maximum period of 30 nights. Please enter "
+"alternative dates and try again."
+msgstr ""
+"您的退房日期和入住日期之间超过了30天，您最多只能预订30天。请重新选择日期。"
+
+#: inc/static.php:92
+msgid ""
+"Your check-in date is in the past. Please check your dates and try again."
+msgstr "您的入住日期已过。请检查您的日期然后重新尝试。"
+
+#: inc/static.php:93
+msgid ""
+"Please check your dates, the check-out date appears to be earlier than the "
+"check-in date."
+msgstr "请核查您输入的日期，目前的离店日期要早于登记入住的日期。"
+
+#: inc/static.php:94
+msgid "Next month"
+msgstr "下个月"
+
+#: inc/static.php:95
+msgid "Open calendar and pick a date"
+msgstr "打开日历并选择日期"
+
+#: inc/static.php:96
+msgid "Prev month"
+msgstr "上个月"
+
+#: inc/static.php:97
+msgid "Close calendar"
+msgstr "关闭日历"
+
+#: inc/static.php:98
+msgid "January"
+msgstr "1月"
+
+#: inc/static.php:99
+msgid "February"
+msgstr "2月"
+
+#: inc/static.php:100
+msgid "March"
+msgstr "3月"
+
+#: inc/static.php:101
+msgid "April"
+msgstr "4月"
+
+#: inc/static.php:102
+msgid "May"
+msgstr "5月"
+
+#: inc/static.php:103
+msgid "June"
+msgstr "6月"
+
+#: inc/static.php:104
+msgid "July"
+msgstr "7月"
+
+#: inc/static.php:105
+msgid "August"
+msgstr "8月"
+
+#: inc/static.php:106
+msgid "September"
+msgstr "9月"
+
+#: inc/static.php:107
+msgid "October"
+msgstr "10月"
+
+#: inc/static.php:108
+msgid "November"
+msgstr "11月"
+
+#: inc/static.php:109
+msgid "December"
+msgstr "12月"
+
+#: inc/static.php:110
+msgid "Mo"
+msgstr "周一"
+
+#: inc/static.php:111
+msgid "Tu"
+msgstr "周二"
+
+#: inc/static.php:112
+msgid "We"
+msgstr "周三"
+
+#: inc/static.php:113
+msgid "Th"
+msgstr "周四"
+
+#: inc/static.php:114
+msgid "Fr"
+msgstr "周五"
+
+#: inc/static.php:115
+msgid "Sa"
+msgstr "周六"
+
+#: inc/static.php:116
+msgid "Su"
+msgstr "周日"
+
+#: inc/static.php:117
+msgid "Updating..."
+msgstr "正在更新请稍候"
+
+#: inc/static.php:118
+msgid "Close"
+msgstr "关闭"
+
+#: inc/widget/bos_widget.php:25
+msgid "Display an accomodation search box"
+msgstr "显示住宿搜索栏"
+
+#~ msgid "Jan"
+#~ msgstr "1月"
+
+#~ msgid "Feb"
+#~ msgstr "2月"
+
+#~ msgid "Mar"
+#~ msgstr "3月"
+
+#~ msgid "Apr"
+#~ msgstr "4月"
+
+#~ msgid "May "
+#~ msgstr "5月"
+
+#~ msgid "Jun"
+#~ msgstr "6月"
+
+#~ msgid "Jul"
+#~ msgstr "7月"
+
+#~ msgid "Aug"
+#~ msgstr "8月"
+
+#~ msgid "Sept"
+#~ msgstr "9月"
+
+#~ msgid "Oct"
+#~ msgstr "10月"
+
+#~ msgid "Nov"
+#~ msgstr "11月"
+
+#~ msgid "Dec"
+#~ msgstr "12月"
+
+#~ msgid "Need a calendar?"
+#~ msgstr "需要日历?"
+
+#~ msgid "Month format"
+#~ msgstr "月份格式"
+
+#~ msgid ""
+#~ "For more info on your destination ID, login to the <a href=\"https://"
+#~ "admin.booking.com/partner/\" target=\"_blank\">Partner Center</a>. Check "
+#~ "<em>&quot;URL constructor&quot;</em> section to find your destination ID. "
+#~ "These IDs, also known as UFIs, are usually a negative number ( e.g. "
+#~ "<strong>-2140479 is for Amsterdam</strong> , but can be positive ones in "
+#~ "the US ) while regions, district and landmarks are always positive ( e.g. "
+#~ "<strong>725 is for Ibiza</strong> )."
+#~ msgstr ""
+#~ "如需了解更多有关您的目的地ID的信息，请登录<a href=\"https://admin.booking."
+#~ "com/partner/\" target=\"_blank\">合作伙伴管理中心</a>，在“网址创建器”栏目"
+#~ "中即可找到您的目的地ID。此类ID（又称UFI）通常为负数（<strong>比如阿姆斯特"
+#~ "丹的ID是-2140479</strong>，但美国的部分目的地ID为正数）；地区、区和地标的"
+#~ "ID则均为正数（<strong>比如伊维萨岛的ID为725</strong>）。"
